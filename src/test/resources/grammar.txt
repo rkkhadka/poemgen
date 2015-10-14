@@ -1,0 +1,7 @@
+POEM: <LINE> <LINE>
+LINE: <NOUN>|<PREPOSITION> $LINEBREAK
+ADJECTIVE: black|white|dark <NOUN>|<ADJECTIVE>|$END
+NOUN: heart|flower|field|meadow|pasture|harvest <VERB>|<PREPOSITION>|$END
+PRONOUN: my|your|his|her <NOUN>|<ADJECTIVE>
+VERB: runs|walks|stands <PREPOSITION>|<PRONOUN>|$END
+PREPOSITION: above|across|against|along <NOUN>|<PRONOUN>|<ADJECTIVE>
