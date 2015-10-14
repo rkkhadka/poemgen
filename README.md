@@ -24,4 +24,15 @@ For example, the rule PRONOUN is defined as my|your|his|her <NOUN>|<ADJECTIVE> w
 	her murky bright clear willow
 
 Instructions
+open a terminal window
+clone the repository using "git clone
+co poemgen
+mvn clean package
+java -jar poemgen-1.0-SNAPSHOT.jar
 
+Output:
+ beyond
+ fire murky dark during
+ with river
+ mother
+ during river dark your transcends water clear during sinks sea light through
