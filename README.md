@@ -16,7 +16,7 @@ PREPOSITION: above|across|against|along|among|around|before|behind|beneath|besid
 •	Anything else that is plain text can be considered a word, for example  murky or  heart.
 For example, the rule PRONOUN is defined as my|your|his|her <NOUN>|<ADJECTIVE> which means that one of the words my, your, his or her should be selected at random followed by either a NOUN or an ADJECTIVE, also selected at random.
 
-1)  Write a Java or Scala program which parses the grammatical rules from a text file, then uses the parsed data to generate a random poem. Here is an example of what the output might look like:
+Write a Java or Scala program which parses the grammatical rules from a text file, then uses the parsed data to generate a random poem. Here is an example of what the output might look like:
 	my sun among her white meadow
 	moon upon my light
 	moon
@@ -24,11 +24,11 @@ For example, the rule PRONOUN is defined as my|your|his|her <NOUN>|<ADJECTIVE> w
 	her murky bright clear willow
 
 Instructions
-open a terminal window
-clone the repository using "git clone
-co poemgen
-mvn clean package
-java -jar poemgen-1.0-SNAPSHOT.jar
+1. open a terminal window
+2. clone the repository using "git clone https://github.com/rkkhadka/poemgen.git"
+3. cd poemgen
+4. To build - mvn clean package
+5. Ro Run - java -jar poemgen-1.0-SNAPSHOT.jar
 
 Output:
  beyond
